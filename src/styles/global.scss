@@ -1,0 +1,23 @@
+*, *::before,*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 solid transparent;
+}
+
+// prevent iOS font size change
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+// reset body line-height
+body {
+  min-height: 100vh;
+  line-height: 1;
+  text-rendering: optimizeSpeed;
+  font-family: system-ui;
+  background: #F6F8F9;
+}
